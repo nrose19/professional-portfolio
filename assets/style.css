@@ -1,0 +1,355 @@
+/* Basics of the Webpage */
+:root {
+    --dark-blue: #355C7D;
+    --dark-purple: #6C5B7B;
+    --dark-pink: #C06C84;
+    --pink: #F67280;
+    --orange: #f8cab8;
+    --text: ivory;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--orange);
+    color: var(--dark-blue);
+    line-height: 1.5;
+}
+
+
+/* Header */
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 20px 0px 0px;
+    background-color: var(--dark-blue);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--text);
+    margin: 10px 20px 10px 0px;
+    padding: 15px 20px 15px 100px;
+    background-color: var(--dark-purple);
+    position: relative;
+    top: 40px;
+}
+
+nav,
+ul { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10px;
+}
+
+.nav-links {
+    font-size: 1.3rem;
+    color: var(--text);
+    text-decoration: underline;
+    margin: 10px 16px;
+}
+
+.sunset {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* Main Section */
+main {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 20px 20px 0px 0px;
+    padding: 30px 20px 10px 100px;
+    color: var(--text);
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 20px; */
+}
+
+p {
+    width: 60%;
+    justify-content: flex-end;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+/* Overarching code for different sections */
+
+#contact-me,
+#resume,
+#portfolio-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me-section,
+.contact-me-section,
+.resume,
+#portfolio-header {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+/* About Me Section */
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+#about-me-paragraph {
+    width: 55%;
+    text-align: center;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+#about-me-header {
+    display: block;
+    position: absolute;
+    right: 62%;
+    bottom: 60%;
+    padding: 5px 40px;
+    margin: 0 auto;
+    background-color: var(--dark-blue);
+}
+
+#about-me-header:hover {
+    box-shadow: 0 0 10px var(--pink);
+}
+
+.main-img {
+    height: auto;
+    max-width: 450px;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    border: 5px solid;
+    border-color: var(--pink);
+}
+
+
+/* Contact Me Section */
+
+#contact-me {
+    position: relative;
+}
+
+#contact-me-header {
+    padding: 10px 15px 10px 100px;
+    position: absolute;
+    left: 0%;
+    background-color: var(--dark-pink);
+}
+
+#contact-me-header:hover {
+    box-shadow: 0 0 10px var(--pink);
+}
+
+.contact-me-paragraph {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 10px 0px 500px;
+}
+
+#linked-in {
+    color: var(--dark-pink);
+}
+
+
+/* Resume Section */
+
+#resume {
+    position: relative;
+    margin-top: 40px;
+}
+
+#resume-header {
+    padding: 10px 100px 10px 15px;
+    margin: 0px;
+    position: absolute;
+    right: 0%;
+    background-color: var(--pink);
+}
+
+#resume-header:hover {
+    box-shadow: 0 0 10px var(--dark-pink);
+}
+
+#resume-link {
+    color: var(--dark-purple);
+}
+
+.resume-paragraph {
+    display: inline;
+    margin: 10px 20px 10px 770px;
+    padding: 50px;
+}
+
+/* Portfolio Section */
+
+#portfolio-cards {
+    position: relative;
+}
+
+#portfolio-header {
+    position: absolute;
+    right: 0%;
+    top: 2.5%;
+    padding: 10px 100px 10px 10px;
+    margin: 0px;
+    background-color: var(--dark-purple);
+}
+
+#portfolio-header:hover {
+    box-shadow: 0 0 10px var(--dark-pink);
+}
+
+.project-one,
+.project-two,
+.project-three,
+.project-four {
+    position:relative;
+    margin: 20px 0px 20px 20px;
+    padding: 20px;
+    
+}
+
+.bottom-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.project-buttons {
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
+    font-size: 1.4rem;
+    width: 100%;
+    background-color: var(--dark-blue);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.project-one {
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    min-width: 50%;
+    width: 62.7%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
+}
+
+.project-two{
+    background-image: url(../images/tech-image-one.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    min-width:15%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
+}
+
+.project-three{
+    background-image: url(../images/tech-image-three.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    min-width:15%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
+}
+
+.project-four {
+    background-image: url(../images/tech-image-two.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    min-width:15%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
+}
+
+.project-one:hover,
+.project-two:hover,
+.project-three:hover,
+.project-four:hover {
+    opacity: 1.0;
+    box-shadow: 0 0 20px var(--dark-blue);
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* Media Queries */
+
