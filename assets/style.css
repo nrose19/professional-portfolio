@@ -130,13 +130,14 @@ p {
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+    margin-left: 80px;
 }
 
 #about-me-header {
     display: block;
     position: absolute;
-    right: 62%;
-    bottom: 60%;
+    right: 57%;
+    bottom: 65%;
     padding: 5px 40px;
     margin: 0 auto;
     background-color: var(--dark-blue);
@@ -353,3 +354,17 @@ footer {
 
 /* Media Queries */
 
+/* Smaller Phone */
+@media screen and (max-width: 576px) {
+
+}
+
+/* Larger Phone */
+@media screen and (max-width: 768px) {
+   
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    
+}
