@@ -28,8 +28,6 @@ body {
 header {
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     padding: 0px 20px 0px 0px;
@@ -353,18 +351,61 @@ footer {
 }
 
 /* Media Queries */
+/* I am really struggling with this for my webpage. I will appreciate 
+your comments regarding this so that I can fix these issues! Thank you */
 
-/* Smaller Phone */
-@media screen and (max-width: 576px) {
-
+/* Tablet */
+@media screen and (max-width: 992px) {
+    header,
+    main,
+    body,
+    #about-me,
+    #portfolio-cards,
+    #contact-me,
+    #resume,
+    footer {
+        width:100%;
+    }
 }
 
 /* Larger Phone */
 @media screen and (max-width: 768px) {
-   
+    header,
+    main,
+    body,
+    #about-me,
+    #portfolio-cards,
+    #contact-me,
+    #resume,
+    footer {
+        width:100%;
+    }
 }
 
-/* Tablet */
-@media screen and (max-width: 992px) {
+/* Smaller Phone */
+@media screen and (max-width: 576px) {
+    header,
+    main,
+    body,
+    #about-me,
+    #portfolio-cards,
+    #contact-me,
+    #resume,
+    footer {
+        width:100%;
+    }
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contact-me-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 50%;
+    }
     
 }
+
+
