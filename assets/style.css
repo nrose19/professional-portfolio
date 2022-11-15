@@ -264,13 +264,13 @@ p {
 
 
 .project-one {
-    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-image: url(../images/Movie\ Recommender-WTW.png);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
     min-width: 50%;
     width: 62.7%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,7 +279,7 @@ p {
 }
 
 .project-two{
-    background-image: url(../images/tech-image-one.jpeg);
+    background-image: url(../images/Workday\ Planner.png);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -294,7 +294,7 @@ p {
 }
 
 .project-three{
-    background-image: url(../images/tech-image-three.jpeg);
+    background-image: url(../images/Coding\ Quiz.png);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -309,7 +309,7 @@ p {
 }
 
 .project-four {
-    background-image: url(../images/tech-image-two.jpeg);
+    background-image: url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
