@@ -264,7 +264,7 @@ p {
 
 
 .project-one {
-    background-image: url(../images/Movie-Recommender-WTW.png);
+    background-image: url(../images/burnoutbuddy-project.png);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -278,8 +278,8 @@ p {
     border-radius: 6px;
 }
 
-.project-two{
-    background-image: url(../images/Workday-Planner.png);
+.project-two {
+    background-image: url(../images/Movie-Recommender-WTW.png);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -294,6 +294,21 @@ p {
 }
 
 .project-three{
+    background-image: url(../images/Workday-Planner.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    min-width:15%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 6px;
+}
+
+.project-four{
     background-image: url(../images/Coding-Quiz.png);
     background-size: cover;
     background-position: center;
@@ -308,20 +323,6 @@ p {
     border-radius: 6px;
 }
 
-.project-four {
-    background-image: url(../images/digital-marketing-meeting.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.6;
-    min-width:15%;
-    width: 20%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--dark-blue);
-    border-radius: 6px;
-}
 
 .project-one:hover,
 .project-two:hover,
